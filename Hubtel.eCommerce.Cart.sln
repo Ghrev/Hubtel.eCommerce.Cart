@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.eCommerce.Cart.Api", "Hubtel.eCommerce.Cart\Hubtel.eCommerce.Cart.Api.csproj", "{C98916BC-40F1-4ABE-B2A9-B4F6262FFC03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.eCommerce.Cart.Api", "Hubtel.eCommerce.Cart\Hubtel.eCommerce.Cart.Api.csproj", "{C98916BC-40F1-4ABE-B2A9-B4F6262FFC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.eCommerce.Cart.Data", "Hubtel.eCommerce.Cart.Data\Hubtel.eCommerce.Cart.Data.csproj", "{F3CABFBD-B855-4006-ABF3-91AF01589C89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.eCommerce.Cart.Data", "Hubtel.eCommerce.Cart.Data\Hubtel.eCommerce.Cart.Data.csproj", "{F3CABFBD-B855-4006-ABF3-91AF01589C89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.eCommerce.Cart.Models", "Hubtel.eCommerce.Cart.Models\Hubtel.eCommerce.Cart.Models.csproj", "{C297FC09-3A97-45BE-AC57-D793C1819C1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.eCommerce.Cart.Models", "Hubtel.eCommerce.Cart.Models\Hubtel.eCommerce.Cart.Models.csproj", "{C297FC09-3A97-45BE-AC57-D793C1819C1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D7815D8F-C51E-40C6-8BBA-AE4B0D42F4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.eCommerce.UnitTests", "Hubtel.e.Commerce.UnitTests\Hubtel.eCommerce.UnitTests.csproj", "{574E696F-B123-448E-A970-B20BE0CE0DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.eCommerce.UnitTests", "Hubtel.e.Commerce.UnitTests\Hubtel.eCommerce.UnitTests.csproj", "{574E696F-B123-448E-A970-B20BE0CE0DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Backup", "Database Backup", "{FD51A413-57E8-40D9-BD9B-BF0BC1E3489F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Downloads\FTTXDHDEV\HubetelECommerceCart.backup = ..\..\..\..\..\Downloads\FTTXDHDEV\HubetelECommerceCart.backup
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
