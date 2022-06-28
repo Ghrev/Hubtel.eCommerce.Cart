@@ -1,0 +1,11 @@
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Iphone 13 Pro', 9125, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Samsung Galaxy Note 20 Ultra', 7325, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Apple Mac Book M1 Ultra', 17325, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Sony PlayStation 5', 8425, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Microsoft Xbox Series One X', 7325, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Microsoft Xbox Series One S', 4325, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('2Tb Sata HDD (SanDisk)', 725, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Studio Quality Microphone', 325, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('HDMI To Mini HDMI Converter', 180, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('Multi USB Hub to USB C', 140, null, null, null);
+INSERT INTO  "Items" ("ItemName", "UnitPrice", "Quantity", "AddedAt", "UpdatedAt") VALUES ('3000mah Power bank', 280, null, null, null);
