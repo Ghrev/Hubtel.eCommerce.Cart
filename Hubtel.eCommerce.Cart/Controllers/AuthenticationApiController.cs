@@ -62,7 +62,7 @@ namespace Hubtel.eCommerce.Cart.Api.Controllers
 					if (existingUser != null) return Ok("User already exists");
 
 					user.Password = Cypher.EncryptSHA256(user.Password);
-					var result = await _dbHelper.CreateUser(
+					_ = await _dbHelper.CreateUser(
 						user.UserName.ToLower().Trim().Replace(" ", ""), user.FullName.Trim(),
 						user.Msisdn, user.Password.Trim());
 					return Ok("Successful");
